@@ -1,0 +1,7 @@
+a=input()
+words=[]
+for i in a.split():
+  words.append(i.capitalize())
+words.sort()
+for j in words:
+  print(j)
